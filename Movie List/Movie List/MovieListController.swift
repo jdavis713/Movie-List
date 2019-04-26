@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class MovieListController {
+    
+    var movies: [Movie] = []
+    
+    init() {
+        //Test Data
+        createMovie(with: "Harlem Nights")
+        createMovie(with: "Never Back Down")
+    }
+    
+    func createMovie(with name: String) {
+        let movie = Movie(name: name)
+        
+        movies.append(movie)
+    }
+}

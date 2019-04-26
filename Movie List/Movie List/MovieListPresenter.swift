@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol MovieListPresenter: AnyObject {
+    
+    var movieListController: MovieListController? { set get }
+}
