@@ -12,10 +12,13 @@
 		8B6EF13C227356D300E7A5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EF13B227356D300E7A5B5 /* Assets.xcassets */; };
 		8B6EF13F227356D300E7A5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EF13D227356D300E7A5B5 /* LaunchScreen.storyboard */; };
 		8B6EF14722735FC600E7A5B5 /* MovieListTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EF14622735FC600E7A5B5 /* MovieListTable.storyboard */; };
-		8B6EF1532273678300E7A5B5 /* AddNewMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF1522273678300E7A5B5 /* AddNewMovieViewController.swift */; };
-		8B6EF155227367B600E7A5B5 /* MoviesSeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF154227367B600E7A5B5 /* MoviesSeenViewController.swift */; };
-		8B6EF157227367F100E7A5B5 /* MoviesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF156227367F100E7A5B5 /* MoviesTabBarViewController.swift */; };
-		8B6EF1592273680C00E7A5B5 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF1582273680C00E7A5B5 /* MovieListTableViewController.swift */; };
+		8B6EF15E22736A2700E7A5B5 /* MoviesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF15D22736A2700E7A5B5 /* MoviesTabBarViewController.swift */; };
+		8B6EF16022736A4800E7A5B5 /* AddNewMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF15F22736A4800E7A5B5 /* AddNewMovieViewController.swift */; };
+		8B6EF16222736A5800E7A5B5 /* MoviesSeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16122736A5800E7A5B5 /* MoviesSeenViewController.swift */; };
+		8B6EF16422736A6F00E7A5B5 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16322736A6F00E7A5B5 /* MovieListTableViewController.swift */; };
+		8B6EF16622736ABD00E7A5B5 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16522736ABD00E7A5B5 /* MovieList.swift */; };
+		8B6EF16822736ADC00E7A5B5 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16722736ADC00E7A5B5 /* MovieListController.swift */; };
+		8B6EF16A22736B5B00E7A5B5 /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16922736B5B00E7A5B5 /* MovieListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +29,13 @@
 		8B6EF13E227356D300E7A5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6EF140227356D300E7A5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B6EF14622735FC600E7A5B5 /* MovieListTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieListTable.storyboard; sourceTree = "<group>"; };
-		8B6EF1522273678300E7A5B5 /* AddNewMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMovieViewController.swift; sourceTree = "<group>"; };
-		8B6EF154227367B600E7A5B5 /* MoviesSeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSeenViewController.swift; sourceTree = "<group>"; };
-		8B6EF156227367F100E7A5B5 /* MoviesTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTabBarViewController.swift; sourceTree = "<group>"; };
-		8B6EF1582273680C00E7A5B5 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		8B6EF15D22736A2700E7A5B5 /* MoviesTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTabBarViewController.swift; sourceTree = "<group>"; };
+		8B6EF15F22736A4800E7A5B5 /* AddNewMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMovieViewController.swift; sourceTree = "<group>"; };
+		8B6EF16122736A5800E7A5B5 /* MoviesSeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSeenViewController.swift; sourceTree = "<group>"; };
+		8B6EF16322736A6F00E7A5B5 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		8B6EF16522736ABD00E7A5B5 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		8B6EF16722736ADC00E7A5B5 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
+		8B6EF16922736B5B00E7A5B5 /* MovieListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +68,29 @@
 		8B6EF133227356CF00E7A5B5 /* Movie List */ = {
 			isa = PBXGroup;
 			children = (
+				8B6EF16522736ABD00E7A5B5 /* MovieList.swift */,
+				8B6EF16722736ADC00E7A5B5 /* MovieListController.swift */,
+				8B6EF16922736B5B00E7A5B5 /* MovieListPresenter.swift */,
 				8B6EF134227356CF00E7A5B5 /* AppDelegate.swift */,
 				8B6EF138227356CF00E7A5B5 /* Main.storyboard */,
 				8B6EF14622735FC600E7A5B5 /* MovieListTable.storyboard */,
-				8B6EF1522273678300E7A5B5 /* AddNewMovieViewController.swift */,
-				8B6EF154227367B600E7A5B5 /* MoviesSeenViewController.swift */,
-				8B6EF156227367F100E7A5B5 /* MoviesTabBarViewController.swift */,
-				8B6EF1582273680C00E7A5B5 /* MovieListTableViewController.swift */,
+				8B6EF15C227369A900E7A5B5 /* ViewControllers */,
 				8B6EF13B227356D300E7A5B5 /* Assets.xcassets */,
 				8B6EF13D227356D300E7A5B5 /* LaunchScreen.storyboard */,
 				8B6EF140227356D300E7A5B5 /* Info.plist */,
 			);
 			path = "Movie List";
+			sourceTree = "<group>";
+		};
+		8B6EF15C227369A900E7A5B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B6EF15D22736A2700E7A5B5 /* MoviesTabBarViewController.swift */,
+				8B6EF15F22736A4800E7A5B5 /* AddNewMovieViewController.swift */,
+				8B6EF16122736A5800E7A5B5 /* MoviesSeenViewController.swift */,
+				8B6EF16322736A6F00E7A5B5 /* MovieListTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,11 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6EF1532273678300E7A5B5 /* AddNewMovieViewController.swift in Sources */,
+				8B6EF16622736ABD00E7A5B5 /* MovieList.swift in Sources */,
+				8B6EF15E22736A2700E7A5B5 /* MoviesTabBarViewController.swift in Sources */,
+				8B6EF16022736A4800E7A5B5 /* AddNewMovieViewController.swift in Sources */,
+				8B6EF16222736A5800E7A5B5 /* MoviesSeenViewController.swift in Sources */,
 				8B6EF135227356CF00E7A5B5 /* AppDelegate.swift in Sources */,
-				8B6EF157227367F100E7A5B5 /* MoviesTabBarViewController.swift in Sources */,
-				8B6EF155227367B600E7A5B5 /* MoviesSeenViewController.swift in Sources */,
-				8B6EF1592273680C00E7A5B5 /* MovieListTableViewController.swift in Sources */,
+				8B6EF16822736ADC00E7A5B5 /* MovieListController.swift in Sources */,
+				8B6EF16422736A6F00E7A5B5 /* MovieListTableViewController.swift in Sources */,
+				8B6EF16A22736B5B00E7A5B5 /* MovieListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

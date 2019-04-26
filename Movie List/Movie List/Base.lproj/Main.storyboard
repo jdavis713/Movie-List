@@ -13,7 +13,7 @@
         <!--Movies-->
         <scene sceneID="a1D-Gf-kr8">
             <objects>
-                <viewController id="kkQ-r0-B0a" customClass="MoviesSeenViewController" customModule="Movie_List" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kkQ-r0-B0a" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hS7-dM-TSQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +47,7 @@
         <!--Add New Movies-->
         <scene sceneID="YZT-jf-8kc">
             <objects>
-                <viewController id="tOR-Zb-1if" customClass="AddNewMovieViewController" customModule="Movie_List" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tOR-Zb-1if" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sNO-vF-QHI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="-336" y="-409"/>
         </scene>
-        <!--Movies Tab Bar View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="wpi-XF-csf">
             <objects>
-                <tabBarController id="gQO-SI-QIm" customClass="MoviesTabBarViewController" customModule="Movie_List" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="gQO-SI-QIm" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ccn-gl-G6s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
