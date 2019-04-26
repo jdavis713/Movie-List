@@ -34,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QhJ-61-cxn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-336.23188405797106" y="238.39285714285714"/>
+            <point key="canvasLocation" x="-336" y="392"/>
         </scene>
         <!--MovieListTable-->
         <scene sceneID="p5S-GU-EZG">
@@ -70,6 +70,9 @@
                                 <rect key="frame" x="171" y="148" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Movie"/>
+                                <connections>
+                                    <segue destination="kkQ-r0-B0a" kind="show" id="5Ui-Jq-JMd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -104,4 +107,7 @@
         <image name="1045-clapboard" width="28" height="28"/>
         <image name="907-plus-rounded-square" width="28" height="28"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5Ui-Jq-JMd"/>
+    </inferredMetricsTieBreakers>
 </document>
