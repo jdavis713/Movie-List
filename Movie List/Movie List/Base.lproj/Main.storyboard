@@ -39,7 +39,7 @@
         <!--MovieListTable-->
         <scene sceneID="p5S-GU-EZG">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MovieListTable" id="1NH-IT-cEV" userLabel="MovieListTable" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="MovieListTable" storyboardName="MovieListTable" id="1NH-IT-cEV" userLabel="MovieListTable" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PtV-o9-bb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="237" y="194"/>
