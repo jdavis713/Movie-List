@@ -71,6 +71,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Movie"/>
                                 <connections>
+                                    <action selector="addMovieButtonPressed:" destination="tOR-Zb-1if" eventType="touchUpInside" id="5dz-v3-oTp"/>
                                     <segue destination="kkQ-r0-B0a" kind="show" id="5Ui-Jq-JMd"/>
                                 </connections>
                             </button>
@@ -79,6 +80,9 @@
                         <viewLayoutGuide key="safeArea" id="dcE-cd-Qd2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add New Movies" image="907-plus-rounded-square" id="fgC-K0-U9b"/>
+                    <connections>
+                        <outlet property="movieTitleTextField" destination="KcL-8D-7h3" id="4YX-Z2-AGn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gP-nt-YiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
