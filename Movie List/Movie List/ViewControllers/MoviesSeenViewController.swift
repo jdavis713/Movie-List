@@ -29,7 +29,7 @@ class MoviesSeenViewController: UIViewController, MovieListPresenter {
                 else { return }
             
             movieListTVC.movieListController = movieListController
-            movieListTVC.delegate = self as! MovieEnteredDelegate
+            movieListTVC.delegate = self as? MovieEnteredDelegate
             movieListTableViewController = movieListTVC
         } else { return }
     }
