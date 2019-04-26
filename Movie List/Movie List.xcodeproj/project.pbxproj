@@ -19,7 +19,7 @@
 		8B6EF16622736ABD00E7A5B5 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16522736ABD00E7A5B5 /* MovieList.swift */; };
 		8B6EF16822736ADC00E7A5B5 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16722736ADC00E7A5B5 /* MovieListController.swift */; };
 		8B6EF16A22736B5B00E7A5B5 /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16922736B5B00E7A5B5 /* MovieListPresenter.swift */; };
-		8B6EF16C22737E2200E7A5B5 /* MovieListTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16B22737E2100E7A5B5 /* MovieListTableViewCellDelegate.swift */; };
+		8B6EF17022739AA100E7A5B5 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EF16F22739AA100E7A5B5 /* MovieListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		8B6EF16522736ABD00E7A5B5 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		8B6EF16722736ADC00E7A5B5 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
 		8B6EF16922736B5B00E7A5B5 /* MovieListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
-		8B6EF16B22737E2100E7A5B5 /* MovieListTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		8B6EF16F22739AA100E7A5B5 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 				8B6EF15F22736A4800E7A5B5 /* AddNewMovieViewController.swift */,
 				8B6EF16122736A5800E7A5B5 /* MoviesSeenViewController.swift */,
 				8B6EF16322736A6F00E7A5B5 /* MovieListTableViewController.swift */,
-				8B6EF16B22737E2100E7A5B5 /* MovieListTableViewCellDelegate.swift */,
+				8B6EF16F22739AA100E7A5B5 /* MovieListTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -170,12 +170,12 @@
 			files = (
 				8B6EF16622736ABD00E7A5B5 /* MovieList.swift in Sources */,
 				8B6EF15E22736A2700E7A5B5 /* MoviesTabBarViewController.swift in Sources */,
-				8B6EF16C22737E2200E7A5B5 /* MovieListTableViewCellDelegate.swift in Sources */,
 				8B6EF16022736A4800E7A5B5 /* AddNewMovieViewController.swift in Sources */,
 				8B6EF16222736A5800E7A5B5 /* MoviesSeenViewController.swift in Sources */,
 				8B6EF135227356CF00E7A5B5 /* AppDelegate.swift in Sources */,
 				8B6EF16822736ADC00E7A5B5 /* MovieListController.swift in Sources */,
 				8B6EF16422736A6F00E7A5B5 /* MovieListTableViewController.swift in Sources */,
+				8B6EF17022739AA100E7A5B5 /* MovieListTableViewCell.swift in Sources */,
 				8B6EF16A22736B5B00E7A5B5 /* MovieListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,9 +11,11 @@ import Foundation
 struct Movie {
     
     let name: String
+    var isSeen: Bool
     
     init(name: String) {
        self.name = name
+        self.isSeen = false
     }
     
 }
